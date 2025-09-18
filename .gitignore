@@ -1,0 +1,23 @@
+# OS files
+.DS_Store
+Thumbs.db
+
+# Sublime Text
+*.sublime-workspace
+*.sublime-project
+
+# Composer
+/vendor/
+/composer.lock
+
+# Logs & cache
+*.log
+*.tmp
+*.cache
+
+# IDE
+.vscode/
+.idea/
+
+# Environment config
+.env

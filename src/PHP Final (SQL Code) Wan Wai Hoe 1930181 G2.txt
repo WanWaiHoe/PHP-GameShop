@@ -1,0 +1,20 @@
+CREATE DATABASE hoee_game_shop;
+
+create table console(
+Name varchar(50),
+Price decimal(20,2),
+Status varchar(50)
+PRIMARY KEY(Name));
+
+create table customer(
+username varchar(50),
+password varchar(50)
+PRIMARY KEY(username));
+
+create table game(
+Name varchar(50),
+Price decimal(20,2),
+Status varchar(50)
+Type varchar(50)
+PRIMARY KEY(Name));
+
